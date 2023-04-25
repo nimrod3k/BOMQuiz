@@ -1,5 +1,4 @@
 from sws.random_verse import get_random_verse, pretty_print_verse
-import ldscriptures as lds
 
 OT = 1
 NT = 2
@@ -46,8 +45,5 @@ if book_guess == (verse['book_id'] - BOM_OFFSET):
 
 else:
     print(f'{BOM_BOOKS[book_guess]} was incorrect, it was {verse["book_title"]}')
-
-
-# scripture = lds.get('2 Nephi 28:30')
 
 
