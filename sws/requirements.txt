@@ -1,0 +1,6 @@
+black
+pydocstyle
+pytest
+flake8
+pytest-cov
+coverage
